@@ -248,7 +248,7 @@ export default function App() {
             <a href="#projects" className="hover:text-cyan-400 transition">
               Projects
             </a>
-           
+
             <a href="#skills" className="hover:text-cyan-400 transition">
               Skills
             </a>
@@ -766,7 +766,7 @@ export default function App() {
           className="p-8 sm:p-12 rounded-3xl bg-gradient-to-b from-cyan-950/30 via-slate-900/40 to-slate-950 border border-cyan-800/40 text-center"
         >
           <h2 className="text-3xl font-black tracking-tight text-white mb-3">
-            Ready to Discuss Opportunities?
+            Discuss Opportunities
           </h2>
           {/* <p className="text-slate-400 max-w-lg mx-auto text-sm leading-relaxed mb-8">
             Whether for AppSec engineering, cloud infrastructure, or backend
