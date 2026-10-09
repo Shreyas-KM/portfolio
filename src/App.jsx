@@ -259,6 +259,13 @@ export default function App() {
 
           {/* Recruiter Quick Actions */}
           <div className="hidden md:flex items-center gap-3">
+            <a
+              href="/SHREYAS_CV_2026.pdf"
+              download="Shreyas_KM_CV.pdf"
+              className="flex items-center gap-2 px-3.5 py-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-300 text-xs font-mono transition"
+            >
+              <Download size={16} /> Download CV
+            </a>
             <button
               onClick={copyEmail}
               className="flex items-center gap-2 px-3.5 py-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-300 text-xs font-mono transition"
@@ -403,6 +410,13 @@ export default function App() {
                 className="flex items-center gap-2 px-5 py-3 rounded-xl bg-slate-900/90 border border-slate-800 hover:border-slate-700 text-slate-200 text-sm font-semibold transition"
               >
                 <Code2 size={16} /> LeetCode (150+ Solved)
+              </a>
+              <a
+                href="/SHREYAS_CV_2026.pdf"
+                download="Shreyas_KM_CV.pdf"
+                className="flex items-center gap-2 px-5 py-3 rounded-xl bg-slate-900/90 border border-slate-800 hover:border-slate-700 text-slate-200 text-sm font-semibold transition"
+              >
+                <Download size={16} /> Download CV
               </a>
             </div>
           </div>
@@ -787,6 +801,13 @@ export default function App() {
           </div>
 
           <div className="flex flex-wrap justify-center gap-4">
+            <a
+              href="/SHREYAS_CV_2026.pdf"
+              download="Shreyas_KM_CV.pdf"
+              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-slate-900 border border-slate-700 hover:border-cyan-500 text-slate-200 font-bold transition text-sm"
+            >
+              <Download size={16} /> Download CV
+            </a>
             <a
               href="mailto:shreyasmulimani43@gmail.com"
               className="px-6 py-3.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold transition text-sm shadow-lg shadow-cyan-500/20"
